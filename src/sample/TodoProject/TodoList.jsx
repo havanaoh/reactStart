@@ -40,7 +40,8 @@ return (
                     onChange={ (e)=> {
                         onChange({
                             ...task,
-                            text: e.target.value
+                            text: e.target.value,
+                            done: false
                         })
                     }}
                 />
